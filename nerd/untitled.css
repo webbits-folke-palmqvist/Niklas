@@ -1,0 +1,11 @@
+body {
+	background-image: url('Background.png');
+}
+.header {
+	width: 1000px;
+	height: 400px;
+	background-image: url('Header.tiff');
+	border-style: groove;
+	border-color: black;
+	border-radius: 20px;
+}
