@@ -13,8 +13,11 @@ $_SESSION['user'] = (isset($GET['user']) === true) ? (int)$_GET['user'] : 0;
 	<body>
 
 		<div class="chat">
-			<div class="messages"></div>
-			<textarea class="entry" placeholder=""></textarea>
+			<div class="messages">
+				<div class="message">
+				</div>
+			</div>
+			<textarea class="entry" placeholder="Skriv här"></textarea>
 		</div>
 
 
